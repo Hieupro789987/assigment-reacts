@@ -1,0 +1,42 @@
+.nav {
+  margin-top: 19px;
+  margin-bottom: 19px;
+
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &-left {
+    display: flex;
+    align-items: center;
+    gap: 0 88px;
+  }
+
+  .menu {
+    display: inline-flex;
+    align-items: center;
+    gap: 0 35px;
+
+    list-style: none;
+
+    &-link {
+      color: #0d0e43;
+      font-size: 16px;
+      font-weight: 500;
+      i {
+        color: inherit;
+        font-size: 12px;
+      }
+    }
+  }
+}
+.active {
+  color: $color-pink !important;
+}
+
+.brand {
+  font-size: 35px;
+  font-weight: 700;
+  color: #0d0e43;
+}

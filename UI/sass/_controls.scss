@@ -7,7 +7,6 @@
     align-items: center;
     padding: 11px 0;
   }
-
   .contact {
     display: flex;
     align-items: center;
@@ -25,9 +24,31 @@
 
     &-name {
         font-size: 16px;
-        font-weight: 700;
+        font-weight: 500;
 
         color: #f1f1f1;
       }
+  }
+  .auth {
+    .menu {
+      display: inline-flex;
+      align-items: center;
+      gap: 0 16px;
+
+      list-style: none;
+
+        &-item {
+          color: #F1F1F1;
+        }
+
+        &-link {
+          color:inherit;
+          font-size: 16px;
+          font-weight: 500;
+        }
+    }
+    .menu-item:last-child {
+      margin-left: 10px;
+    }
   }
 }

@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&family=Lato:wght@400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500;700&family=Lato:wght@400;500;700&display=swap"
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/4c592597f8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/app.css">
@@ -16,39 +16,230 @@
 </head>
 
 
-<div class="wrapper">
+
+<body>
+    <div class="wrapper">
         <header class="header">
-            <section class="controls"> 
+            <section class="controls">
                 <div class="container">
-                     <div class="controls-container">
-                         <div class="contact">
+                    <div class="controls-container">
+                        <div class="contact">
                             <div class="contact-email">
-                                <i class="fa-solid fa-envelope" ></i>
+                                <i class="fa-solid fa-envelope"></i>
                                 <span class="contact-name">tth1108200@gmail.com</span>
                             </div>
                             <div class="contact-email">
                                 <i class="fa-solid fa-phone"></i>
                                 <span class="contact-name">(12345)67890</span>
                             </div>
-                         </div>
-                         <div class="auth">
-                             test
-                         </div>
-                     </div>
+                        </div>
+                        <div class="auth">
+                            <ul class="menu">
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link">English
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link">USD
+                                        <i class="fa-solid fa-angle-down"></i>
+                                    </a>
+
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link">Login
+                                        <i class="fa-regular fa-user"></i>
+                                    </a>
+
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link">Wishlist
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </section>
-            
-        </header>    
-        <main>
 
+            <nav class="nav">
+                <div class="container">
+                    <div class="nav-container">
+                        <div class="nav-left">
+                            <a href="#" class="brand">Hekto</a>
+                            <ul class="menu ">
+                                <li class="menu-item ">
+                                    <a href="" class="menu-link active">Home
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Pages</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Products</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Blog</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Shop</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="" class="menu-link">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="search">
+                            <div class="search-input">
+                                <input type="text" />
+                            </div>
+                            <a href="#" class="search-icon">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+        <main class="main">
+            <section class="hero">
+                <div class="container">
+                    <div class="hero-container">
+                        <img srcset="./images/1-2x.png 3x" alt="image" class="immage-1" />
+                        <div class="hero-content">
+                            <h1 class="hero-heading">
+                                New Furniture Collection
+                                Trends in 2020
+                            </h1>
+                            <p class="hero-desc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing
+                                in phasellus non in justo.
+                            </p>
+                            <a href="#" class="button button-primary">Shop now</a>
+                        </div>
+                        <div class="hero-image">
+                            <img srcset="./images/2-2x.png 2x" alt="image" />
+                        </div>
+
+                        <div class="dots">
+                            <span class="dot active"></span>
+                            <span class="dot"></span>
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured">
+                <div class="container">
+                    <h2 class="featured-heading">Featured Products</h2>
+                    <div class="featured-container">
+                        <div class="carousel">
+                            <div class="product product-shadow">
+                                <div class="product-image">
+                                    <img srcset="./images/3-2x.png 2x" alt="product">
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-name">Cantilever chair</h3>
+                                    <span class="product-price">$42.00</span>
+                                </div>
+                                <div class="product-events">
+                                    <a class="product-icon" href="#">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                    </a>
+                                    <a class="product-icon" href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a class="product-icon" href="#">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+
+                                <a href="#" class="button button-secondary button-secondary-view view-detail">View detail</a>
+                            </div>
+                            <div class="product product-shadow">
+                                <div class="product-image">
+                                    <img srcset="./images/3-2x.png 2x" alt="product">
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-name">Cantilever chair</h3>
+                                    <span class="product-price">$42.00</span>
+                                </div>
+                                <div class="product-events">
+                                    <a class="product-icon" href="#">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                    </a>
+                                    <a class="product-icon" href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a class="product-icon" href="#">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+
+                                <a href="#" class="button button-secondary button-secondary-view view-detail">View detail</a>
+                            </div>
+                            <div class="product product-shadow">
+                                <div class="product-image">
+                                    <img srcset="./images/3-2x.png 2x" alt="product">
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-name">Cantilever chair</h3>
+                                    <span class="product-price">$42.00</span>
+                                </div>
+                                <div class="product-events">
+                                    <a class="product-icon" href="#">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                    </a>
+                                    <a class="product-icon" href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a class="product-icon" href="#">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+
+                                <a href="#" class="button button-secondary button-secondary-view view-detail">View detail</a>
+                            </div>
+                            <div class="product product-shadow">
+                                <div class="product-image">
+                                    <img srcset="./images/3-2x.png 2x" alt="product">
+                                </div>
+                                <div class="product-content">
+                                    <h3 class="product-name">Cantilever chair</h3>
+                                    <span class="product-price">$42.00</span>
+                                </div>
+                                <div class="product-events">
+                                    <a class="product-icon" href="#">
+                                        <i class="fa-solid fa-bag-shopping"></i>
+                                    </a>
+                                    <a class="product-icon" href="#">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                    <a class="product-icon" href="#">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </a>
+                                </div>
+
+                                <a href="#" class="button button-secondary button-secondary-view view-detail">View detail</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
-        <footer>
-
-        </footer> 
-</div>
-
-<body>
-
+    </div>
 </body>
 
 </html>
