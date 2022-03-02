@@ -1,0 +1,49 @@
+.offer {
+  &-container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0 28px;
+  }
+  &-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 42px;
+
+    margin-bottom: 55px;
+  }
+
+  &-item {
+    padding: 56px 27px 45px 27px;
+
+    box-shadow: rgb(222 222 222 / 35%) 0px 1px 10px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px 0;
+  }
+
+  &-content {
+    text-align: center;
+    &-heading {
+      font-size: 22px;
+      line-height: calc(26px / 22px);
+
+      margin-bottom: 20px;
+    }
+    &-desc {
+      width: 100%;
+      min-width: 217px;
+
+      font-family: $font-secondary;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: calc(26px / 16px);
+
+
+      text-align: center;
+
+      color: rgba(26, 11, 91, 0.3);
+    }
+  }
+}

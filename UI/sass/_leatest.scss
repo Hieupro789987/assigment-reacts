@@ -1,0 +1,106 @@
+.leatest {
+  margin-top: 71px;
+  margin-bottom: 58px;
+
+  &-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 120px 37px;
+  }
+
+  &-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 42px;
+
+    margin-bottom: 19px;
+  }
+
+  &-tabs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 60px;
+
+    margin-bottom: 58px;
+
+    .active {
+      color: $color-pink;
+      text-decoration: underline;
+    }
+  }
+  &-item {
+    font-family: $font-secondary;
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  &-product {
+    position: relative;
+  }
+
+  &-image {
+    background-color: #f7f7f7;
+    padding: 33px 64px 8px 64px;
+    .sales {
+      position: absolute;
+      left: 18px;
+      top: 25px;
+    }
+  }
+  &-content {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 16px;
+    padding-bottom: 3.5px;
+  }
+  &-name {
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 5.5px;
+  }
+  &-price {
+    font-weight: 300;
+    font-size: 14px;
+
+    margin-right: 5.5px;
+
+        b {
+            font-weight: 300;
+            font-size: 12px;
+            color: $color-pink;
+
+            text-decoration: line-through;
+
+        }
+  }
+
+  &-events {
+    position: absolute;
+    top: 146px;
+    left:15px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 17px 0;
+
+    transition: all 0.35s linear;
+  }
+  &-icon {
+    padding: 5px;
+    border-radius: 5px;
+
+    i {
+      color: #2F1AC4;
+    }
+
+    &:hover {
+      background-color: #eeeffb;
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+      i {
+        color: $color-blue;
+      }
+    }
+  }
+}

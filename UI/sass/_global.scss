@@ -1,6 +1,6 @@
 body {
   font-family: $font-primary;
-  color: #0d0e43;
+  color: #151875;
   line-height: 1;
 }
 .wrapper {
@@ -110,12 +110,13 @@ body {
     left: -100%;
 
     display: flex;
-    gap: 16px;
+    gap:0 16px;
 
     transition: all 0.35s linear;
   }
   &-icon {
     padding: 5px;
+    border-radius: 5px;
 
     i {
       color: #ffffff;
@@ -154,4 +155,6 @@ body {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
   }
+
+  
 }

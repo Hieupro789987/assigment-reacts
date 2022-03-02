@@ -1,0 +1,96 @@
+.unique {
+  background-color: #f2f0ff;
+  padding: 15px 0;
+
+  margin-top: 135px;
+
+  &-container {
+    width: 1050px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+  }
+
+
+  &-heading {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 132%;
+
+    letter-spacing: 0.015em;
+    margin-bottom: 29px;
+  }
+
+  &-image {
+      flex: 1 1 100%;
+  }
+  .menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 13px 0;
+
+    margin-bottom: 38px;
+
+    &-item {
+      display: flex;
+      align-items: center;
+      gap: 0 12px;
+      span:first-child {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+      }
+    }
+    &-text {
+        font-family: $font-secondary     ;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 132%;
+
+      letter-spacing: 0.015em;
+
+      color: #acabc3;
+    }
+  }
+
+  .bottom {
+      display: flex;
+      gap: 0 19px;
+      align-items: center;
+
+
+      .info {
+
+          span {
+              display: block;
+          }
+          &-name {
+            font-size: 14px;
+            line-height: calc(16px / 14px);
+            letter-spacing: 0.02em;
+
+              margin-bottom: 6px;
+          }
+
+          &-price {
+            font-family: $font-secondary;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: calc(17px / 14px);
+          }
+      }
+  }
+}
+
+.menu-icon1 {
+  background-color: $color-pink;
+}
+.menu-icon2 {
+  background-color: $color-blue;
+}
+.menu-icon3 {
+  background-color: $color-green;
+}

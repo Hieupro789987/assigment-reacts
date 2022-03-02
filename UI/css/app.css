@@ -40,7 +40,7 @@ img {
 
 body {
   font-family: "Josefin Sans", sans-serif;
-  color: #0d0e43;
+  color: #151875;
   line-height: 1;
 }
 
@@ -139,11 +139,12 @@ body {
   top: 18px;
   left: -100%;
   display: flex;
-  gap: 16px;
+  gap: 0 16px;
   transition: all 0.35s linear;
 }
 .product-icon {
   padding: 5px;
+  border-radius: 5px;
 }
 .product-icon i {
   color: #ffffff;
@@ -337,6 +338,213 @@ body {
 .featured-container {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.leatest {
+  margin-top: 71px;
+  margin-bottom: 58px;
+}
+.leatest-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 120px 37px;
+}
+.leatest-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 42px;
+  margin-bottom: 19px;
+}
+.leatest-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0 60px;
+  margin-bottom: 58px;
+}
+.leatest-tabs .active {
+  color: #FB2E86;
+  text-decoration: underline;
+}
+.leatest-item {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.leatest-product {
+  position: relative;
+}
+.leatest-image {
+  background-color: #f7f7f7;
+  padding: 33px 64px 8px 64px;
+}
+.leatest-image .sales {
+  position: absolute;
+  left: 18px;
+  top: 25px;
+}
+.leatest-content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 3.5px;
+}
+.leatest-name {
+  font-weight: 300;
+  font-size: 16px;
+  margin-left: 5.5px;
+}
+.leatest-price {
+  font-weight: 300;
+  font-size: 14px;
+  margin-right: 5.5px;
+}
+.leatest-price b {
+  font-weight: 300;
+  font-size: 12px;
+  color: #FB2E86;
+  text-decoration: line-through;
+}
+.leatest-events {
+  position: absolute;
+  top: 146px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px 0;
+  transition: all 0.35s linear;
+}
+.leatest-icon {
+  padding: 5px;
+  border-radius: 5px;
+}
+.leatest-icon i {
+  color: #2F1AC4;
+}
+.leatest-icon:hover {
+  background-color: #eeeffb;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.05);
+}
+.leatest-icon:hover i {
+  color: #2F1AC4;
+}
+
+.offer-container {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0 28px;
+}
+.offer-heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 42px;
+  margin-bottom: 55px;
+}
+.offer-item {
+  padding: 56px 27px 45px 27px;
+  box-shadow: rgba(222, 222, 222, 0.35) 0px 1px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px 0;
+}
+.offer-content {
+  text-align: center;
+}
+.offer-content-heading {
+  font-size: 22px;
+  line-height: 1.1818181818;
+  margin-bottom: 20px;
+}
+.offer-content-desc {
+  width: 100%;
+  min-width: 217px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: rgba(26, 11, 91, 0.3);
+}
+
+.unique {
+  background-color: #f2f0ff;
+  padding: 15px 0;
+  margin-top: 135px;
+}
+.unique-container {
+  width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.unique-heading {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 132%;
+  letter-spacing: 0.015em;
+  margin-bottom: 29px;
+}
+.unique-image {
+  flex: 1 1 100%;
+}
+.unique .menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px 0;
+  margin-bottom: 38px;
+}
+.unique .menu-item {
+  display: flex;
+  align-items: center;
+  gap: 0 12px;
+}
+.unique .menu-item span:first-child {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.unique .menu-text {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 132%;
+  letter-spacing: 0.015em;
+  color: #acabc3;
+}
+.unique .bottom {
+  display: flex;
+  gap: 0 19px;
+  align-items: center;
+}
+.unique .bottom .info span {
+  display: block;
+}
+.unique .bottom .info-name {
+  font-size: 14px;
+  line-height: 1.1428571429;
+  letter-spacing: 0.02em;
+  margin-bottom: 6px;
+}
+.unique .bottom .info-price {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2142857143;
+}
+
+.menu-icon1 {
+  background-color: #FB2E86;
+}
+
+.menu-icon2 {
+  background-color: #2F1AC4;
+}
+
+.menu-icon3 {
+  background-color: #08D15F;
 }
 
 /*# sourceMappingURL=app.css.map */
