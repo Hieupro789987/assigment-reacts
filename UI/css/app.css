@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+input,
+textarea,
+select,
+button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 1;
+}
+
+.wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 17px 40px;
+  border-radius: 2px;
+  font-family: "Josefin Sans", sans-serif;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+.button-primary {
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #FB2E86;
+}
+.button-secondary {
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #08D15F;
+}
+
+.controls {
+  background-color: #7E33E0;
+}
+.controls-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px 0;
+}
+.controls .contact {
+  display: flex;
+  align-items: center;
+  gap: 0 48px;
+}
+.controls .contact-email {
+  display: flex;
+  align-items: flex-end;
+  gap: 0 12px;
+}
+.controls .contact i {
+  color: #ffffff;
+}
+.controls .contact-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f1f1f1;
+}
+
+/*# sourceMappingURL=app.css.map */

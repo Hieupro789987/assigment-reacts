@@ -1,2 +1,1 @@
-# assigment-reacts
-# using typescript and sass
+#UI for web

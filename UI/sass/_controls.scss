@@ -1,0 +1,33 @@
+.controls {
+  background-color: $color-purple;
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 0;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+    gap: 0 48px;
+
+    &-email {
+      display: flex;
+      align-items: flex-end;
+      gap: 0 12px;
+    }
+
+    i {
+        color: #ffffff;
+      }
+
+    &-name {
+        font-size: 16px;
+        font-weight: 700;
+
+        color: #f1f1f1;
+      }
+  }
+}

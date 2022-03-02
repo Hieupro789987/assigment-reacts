@@ -1,0 +1,40 @@
+body {
+    font-family: $font-primary;
+    line-height: 1;
+}
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+.container {
+    max-width: 1220px; //1200
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 17px 40px;
+    border-radius: 2px;
+    font-family: $font-primary;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+
+        &-primary{
+            font-weight: 700;
+            color: #ffffff;
+            background-color: $color-pink;
+
+        }
+
+        &-secondary {
+            font-weight: 700;
+            color: #ffffff;
+            background-color: $color-green;
+        }
+}
+
+
