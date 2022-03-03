@@ -20,7 +20,8 @@
   }
 
   &-image {
-    transform: translateX(12%);
+     transform: translateX(12%);
+    flex: 1 1 80%;
     img {
       width: 100%;
     }
